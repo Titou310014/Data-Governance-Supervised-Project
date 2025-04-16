@@ -1,0 +1,68 @@
+=== RAPPORT D'ANALYSE IRVE - 16/04/2025 18:59 ===
+
+✅ Fichier chargé avec succès (127260 lignes)
+
+🔍 COLONNES DISPONIBLES :
+['nom_amenageur', 'siren_amenageur', 'contact_amenageur', 'nom_operateur', 'contact_operateur', 'telephone_operateur', 'nom_enseigne', 'id_station_itinerance', 'id_station_local', 'nom_station', 'implantation_station', 'adresse_station', 'code_insee_commune', 'coordonneesxy', 'nbre_pdc', 'id_pdc_itinerance', 'id_pdc_local', 'puissance_nominale', 'prise_type_ef', 'prise_type_2', 'prise_type_combo_ccs', 'prise_type_chademo', 'prise_type_autre', 'gratuit', 'paiement_acte', 'paiement_cb', 'paiement_autre', 'tarification', 'condition_acces', 'reservation', 'horaires', 'accessibilite_pmr', 'restriction_gabarit', 'station_deux_roues', 'raccordement', 'num_pdl', 'date_mise_en_service', 'observations', 'date_maj', 'cable_t2_attache', 'last_modified', 'datagouv_dataset_id', 'datagouv_resource_id', 'datagouv_organization_or_owner', 'created_at', 'consolidated_longitude', 'consolidated_latitude', 'consolidated_code_postal', 'consolidated_commune', 'consolidated_is_lon_lat_correct', 'consolidated_is_code_insee_verified', 'consolidated_is_code_insee_modified']
+
+🔌 TOP 20 DES OPÉRATEURS :
+nom_operateur
+Bouygues Energies & Services       17497
+IZIVIA                             12309
+Freshmile | FR*FR1                  8367
+Power Dot France                    5891
+LIDL France                         5214
+DRIVECO                             5154
+TotalEnergies Charging Services     4415
+Allego                              4212
+NaN                                 3358
+Greenflux                           3207
+TESLA France SARL                   3057
+SPBR1 | FR*EBN                      3042
+SPBR1                               3028
+E.Leclerc | FR*LE2                  2728
+SPIE CITYNETWORKS                   2414
+Electra                             2177
+ChargePoint                         1982
+E-TOTEM                             1867
+ELECTRA                             1813
+TotalEnergies Marketing France      1709
+Name: count, dtype: int64
+
+⚡ NOMBRE DE BORNES TESLA : 3057
+            nom_operateur       nom_station  \
+112259  TESLA France SARL  Mulhouse, France   
+112260  TESLA France SARL  Mulhouse, France   
+112261  TESLA France SARL  Mulhouse, France   
+112262  TESLA France SARL  Mulhouse, France   
+112263  TESLA France SARL  Mulhouse, France   
+112264  TESLA France SARL  Mulhouse, France   
+112265  TESLA France SARL  Mulhouse, France   
+112266  TESLA France SARL  Mulhouse, France   
+112267  TESLA France SARL       Pau, France   
+112268  TESLA France SARL       Pau, France   
+
+                                    adresse_station  
+112259  26 Route Départementale 201, 68390 Sausheim  
+112260  26 Route Départementale 201, 68390 Sausheim  
+112261  26 Route Départementale 201, 68390 Sausheim  
+112262  26 Route Départementale 201, 68390 Sausheim  
+112263  26 Route Départementale 201, 68390 Sausheim  
+112264  26 Route Départementale 201, 68390 Sausheim  
+112265  26 Route Départementale 201, 68390 Sausheim  
+112266  26 Route Départementale 201, 68390 Sausheim  
+112267            2 rue suzanne lenglen, 64000 Pau   
+112268            2 rue suzanne lenglen, 64000 Pau   
+
+🔒 NOMBRE DE BORNES PRIVÉES : 13508
+    nom_operateur condition_acces            nom_station
+233      NEXTENEO   Accès réservé            Lavorel Jet
+234      NEXTENEO   Accès réservé   CLUB MED VAL D'ISÈRE
+235      NEXTENEO   Accès réservé               Nexteneo
+236      NEXTENEO   Accès réservé            Lavorel Jet
+237      NEXTENEO   Accès réservé  CLUB MED - La Rosière
+238      NEXTENEO   Accès réservé      Hôtel la Bergerie
+239      NEXTENEO   Accès réservé   Hôtel Champs Fleuris
+240      NEXTENEO   Accès réservé                   ASCO
+241      NEXTENEO   Accès réservé               AVENTICS
+242      NEXTENEO   Accès réservé                   ASCO
